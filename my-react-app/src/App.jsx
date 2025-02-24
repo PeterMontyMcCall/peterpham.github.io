@@ -1,10 +1,15 @@
-import Button from './Button.jsx'
+import NavBar from './Components/NavBar/NavBar.jsx'
+import Hero from './Components/Hero/Hero.jsx'
+import styles from './App.module.css'
 
 function App() {
-  
+
   return(
     <>
-      <Button/>
+      <div className={styles.App}>
+        <NavBar/>
+        <Hero/>
+      </div>
     </>
     
   );
