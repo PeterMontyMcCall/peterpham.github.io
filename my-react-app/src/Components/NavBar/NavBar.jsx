@@ -5,21 +5,19 @@ function NavBar() {
         <>  
             <nav className={styles.navbar}>
                 <a href="/">Portfolio</a>
-            
-                <div>
-                    
+                <div>    
                     <ul>
                         <li>
-                            <a href="/about">About</a>
+                            <a href="#about">About</a>
                         </li> 
                         <li>
-                            <a href="/experience">Experience</a>
+                            <a href="#experience">Experience</a>
                         </li> 
                         <li>
-                            <a href="/project">Project</a>
+                            <a href="#projects">Project</a>
                         </li> 
                         <li>
-                            <a href="/contact">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li> 
                     </ul>
                 </div>

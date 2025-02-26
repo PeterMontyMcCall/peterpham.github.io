@@ -1,1 +1,97 @@
 @import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.skill {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px;
+    border-radius: 15px;
+    gap: 11px;
+    min-width: 120px;
+}
+
+.skill img {
+    width: 30px;
+}
+
+.skill p {   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.history {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    z-index: 1;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(180deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 10px;
+    padding: 24px;
+    text-align: left;
+}
+
+.historyItem img {
+    width: 50px;
+}
+
+.historyItemDetails h3 {
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.historyItemDetails p {
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.historyItemDetails ul {
+    margin-top: 6px;
+    list-style-position: inside;
+    font-size: 25px;
+    list-style-type: disc;
+    text-align: left;
+} 
